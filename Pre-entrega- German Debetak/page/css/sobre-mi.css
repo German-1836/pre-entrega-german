@@ -1,0 +1,196 @@
+
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* Aplicamos estilos al body*/
+
+body{
+    background-color: rgb(200, 40, 40);
+}
+/* Aplicamos estilos al header */
+
+header{
+     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    color: aliceblue;
+    background-color: blue;
+   
+}
+
+header h1{
+    margin: 10px;
+}
+header h4{
+    padding: 10px;
+   
+}
+
+
+
+/* Le ponemos estilos al main */
+
+main{
+    background-color: blue;
+}
+
+
+
+/* Diseñamos el grid de la seccion principal */
+
+.propia{
+    
+    display: grid;
+    margin: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    grid-template-areas: 
+    "Area1 Area2 Area3"
+    "Area4 Area2 Area6"
+    "Area7 Area8 Area9";
+}
+
+
+.Area{
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+#area1{
+    grid-area: Area1;
+}
+#area2{
+    grid-area: Area2;
+}
+#area3{
+    grid-area: Area3;
+}
+#area4{
+    grid-area: Area4;
+}
+#area5{
+    grid-area: Area5;
+}
+#area6{
+    grid-area: Area6;
+}
+#area7{
+    grid-area: Area7;
+}
+#area8{
+    grid-area: Area8;
+}
+#area9{
+    grid-area: Area9;
+}
+
+#area1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+#area2 img{
+    width: 100%;
+    height: 100%;
+}
+#area3 img{
+    width: 100%;
+    height: 100%;
+}
+#area4 img{
+    width: 100%;
+    height: 100%;
+}
+#area5 img{
+    width: 100%;
+    height: 100%;
+}
+#area6 img{
+    width: 100%;
+    height: 100%;
+}
+#area7 img{
+    width: 100%;
+    height: 100%;
+}
+#area8 img{
+    width: 100%;
+    height: 100%;
+}
+#area9 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Aplicamos estilos al footer */
+
+footer{
+    background-color: blue;
+}
+footer .redes{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    padding: 15px;
+}
+footer .redes a{
+    color: aliceblue;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+footer .copy{
+    color: aliceblue;
+    text-align: left;
+    margin-top: 6rem;
+    padding: 10px;
+}
+
+@media(max-width: 768px){
+    .propia{
+   
+        display: grid;
+        margin: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        gap: 10px;
+        grid-template-areas: 
+        "Area1 Area2"
+        "Area3 Area4"
+        "Area6 Area7"
+        "Area8 Area9";
+        
+    }
+}
+
+@media(max-width: 320px){
+    .propia{
+   
+        display: grid;
+        margin: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 200px);
+        gap: 10px;
+        grid-template-areas: 
+        "Area1"
+        "Area2"
+        "Area3"
+        "Area4"
+        "Area6"
+        "Area7"
+        "Area8"
+        "Area9";
+        
+    }
+
+}
+
+

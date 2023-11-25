@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+
+/* Aplicamos estilos al header */
+
+
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: blue;
+}
+header h4{
+    padding: 10px;
+}
+header h1{
+    padding: 10px;
+}
+
+ 
+/* Aplicamos estilos al main */
+
+main{
+    background-color: blue;
+}
+main h4{
+    margin: 10px;
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+} 
+.sedes{
+    color: aliceblue;
+}
+/* diseñamos el grid de la pagina */
+
+.ger{
+
+    margin: 5px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-template-areas: 
+    "Area1 Area2 Area3 Area4"
+    "Area5 Area6 Area7 Area8";
+
+    
+}
+
+.Area :hover{
+    box-shadow: 0px 8px 16px; color: black;
+
+}
+.Area{
+    border: 1px solid black;
+}
+
+#area1 img{
+    height: 100%;
+    width: 100%;
+}
+#area2 img{
+    height: 100%;
+    width: 100%;
+}
+#area3 img{
+    height: 100%;
+    width: 100%;
+}
+#area4 img{
+    height: 100%;
+    width: 100%;
+}
+#area5 img{
+    height: 100%;
+    width: 100%;
+}
+#area6 img{
+    height: 100%;
+    width: 100%;
+}
+#area7 img{
+    height: 100%;
+    width: 100%;
+}
+#area8 img{
+    height: 100%;
+    width: 100%;
+}
+
+.imagen-propia{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Aplicamos estilos al footer */
+
+footer{
+    background-color: blue;
+}
+footer .redes{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+footer .redes a{
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  
+
+}
+footer .copy{
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+}
+/* Tablet */
+@media(max-width: 768px){
+   .ger{
+     margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        gap: 10px;
+        grid-template-areas:
+        "Area1 Area2 Area3"
+        "Area4 Area5 Area6"
+        "Area7 Area8 Area9";
+   }
+}
+    
+@media(max-width: 320px){
+    .ger{
+      margin: 5px;
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-template-rows: repeat(8, 200px);
+         gap: 10px;
+         grid-template-areas:
+         "Area1"
+         "Area2"
+         "Area3"
+         "Area4"
+         "Area5"
+         "Area6"
+         "Area7"
+         "Area8";
+    }
+ }
+

@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Aplicamo estilos al body */
+body{
+   background-color: blue;
+}
+/* Aplicamos estilos al header */
+
+header{
+    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: blue;
+}
+header nav{
+    text-decoration: none;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+header nav a{
+    color: aliceblue;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+
+/* Aplicamos estilos al main */
+main{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color: blue;
+    
+    
+}
+main article form fieldset div{
+    margin: 10px;
+
+}main section div h2{
+    margin: 10px;
+}
+main section{
+    margin: 10px;
+}
+.main{
+    
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Aplicamos estilos al footer */
+
+footer{
+    background-color: blue;
+}
+footer .redes{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+  
+}
+footer .redes a{
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+   
+}

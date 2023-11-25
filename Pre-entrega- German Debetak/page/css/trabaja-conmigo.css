@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Aplicamos estilos al body */
+body{
+    background-color: blue;
+}
+/* Aplicamos estilos al header */
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: blue;
+}
+header nav{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: aliceblue;
+}
+h4{
+    background-color: blue;
+    color: aliceblue;
+}
+
+/* Aplicamos estilos al main */
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: blue;
+    color: aliceblue;
+
+}
+
+ 
+main section{
+    margin: 5px;
+    
+}
+main section div{
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 19rem;
+
+    
+
+    
+
+
+}
+main section div img{
+    width: 100%;
+    height: 250px;
+    
+}
+
+
+main section div h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+main section div p{
+    text-align: center;
+    line-height: 25px;
+}
+/* Aplicamos estilos al footer */
+footer{
+    background-color: blue;
+}
+footer .redes{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+footer .redes a{
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;;
+
+}
+footer .copy{
+    padding: 10px;
+    color: aliceblue;
+}
+footer .botton{
+    padding: 10px;
+    text-align: center;
+
+    
+}
+footer .botton a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: larger;
+    color: aliceblue;
+    border: 2px solid black;;
+   
+   
+}
